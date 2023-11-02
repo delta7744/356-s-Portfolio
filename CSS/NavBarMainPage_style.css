@@ -1,50 +1,61 @@
 /* navbarmainpage design */
-.navigationBar{
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-background-image: linear-gradient(to bottom, black , rgb(0, 0, 35) ,rgb(19, 19, 19));
+
+.navigationBar {
+    font-family: 'Rubik', sans-serif;
+    background-image: linear-gradient(to bottom, black, rgb(0, 0, 35), rgb(19, 19, 19));
 }
-.logo{
+
+.logo {
     width: 70px;
     height: 60px;
     border-radius: 50%;
 }
-.navonleft{
-display: flex;
+
+.navonleft {
+    display: flex;
 }
-.PageName{
+
+.PageName {
     text-align: center;
     font-size: 50px;
     margin-left: 10px;
     color: white;
     font-weight: bold;
 }
-ul{
-text-decoration: none;
-list-style: none;
+
+ul {
+    text-decoration: none;
+    list-style: none;
 }
-a{
-text-decoration: none;
-list-style: none;
-color: rgb(255, 255, 255);
-position: relative;
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    position: relative;
 }
-li{
-text-decoration: none;
-list-style: none;
+
+li {
+    text-decoration: none;
+    list-style: none;
 }
-ul li{
+
+ul li {
     margin-left: 300px;
     display: inline;
     font-size: 25px;
 }
+
 table {
     border-collapse: separate;
     border-spacing: 5em 0;
 }
-table td a:hover{
+
+table td a:hover {
     background-color: gray;
     width: 100%;
 }
-td{
+
+td {
     width: 100px;
 }
